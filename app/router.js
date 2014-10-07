@@ -6,6 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+	this.route('zoom', {path: '/zoom/:id'});
 });
 
 export default Router;

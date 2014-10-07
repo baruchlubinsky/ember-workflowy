@@ -1,3 +1,41 @@
 html, body {
   margin: 20px;
 }
+
+nav {
+	color: black;
+}
+
+nav > a {
+	text-decoration: none;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+div.display > textarea {
+	width: 500px;
+	border: none;
+	outline: thin;
+	resize: none;
+	font-family: inherit;
+}
+
+textarea.text {
+	font-size: 23px;
+	height: 23px;
+}
+
+textarea.note {
+	font-size: 13px;
+	height: 13px;
+}
+
+ul.root li {
+	list-style-type: disc;
+}
+
+span.zoom {
+	cursor: pointer;
+}
