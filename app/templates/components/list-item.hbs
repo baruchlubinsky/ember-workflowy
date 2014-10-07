@@ -1,0 +1,11 @@
+<div class="display">
+	{{textarea value=data.text class="text"}}<span class="zoom" {{action "zoom" data}}>+</span><br />
+	{{textarea value=data.note class="note"}}
+</div>
+
+<ul>
+{{#each data.children}}
+	{{list-item data=this action='passRoot'}}
+{{/each}}
+</ul>
+

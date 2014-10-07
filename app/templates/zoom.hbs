@@ -1,0 +1,8 @@
+<nav>
+{{#each nav}}
+	{{#link-to 'zoom' this}}{{this.text}}{{/link-to}} > 
+{{/each}}
+{{this.text}}
+</nav>
+
+{{partial 'list'}}
